@@ -1,0 +1,51 @@
+body {
+    padding: 40px 12px 0px 12px;
+    font-family:‘ヒラギノ角ゴ ProN W3′, ‘Hiragino Kaku Gothic ProN’, ‘メイリオ’, ‘Meiryo’, ‘ＭＳ Ｐゴシック’, ‘MS PGothic’, sans-serif;
+    /*
+    font-family: 'Lato', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    */
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+
+    background-repeat: no-repeat;            /* 背景を繰り返さない */
+    background-position: 50% 30%;            /* 背景画像の位置は画面中央 */
+    background-attachment: fixed;             /* 背景画像を固定する */
+}
+
+a {
+    color: #00B7FF;
+}
+
+
+.ng-enter,
+.ng-leave,
+.ng-move {
+    -webkit-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+.ng-enter {
+    opacity: 0;
+}
+
+.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.ng-leave {
+    opacity: 1;
+}
+
+.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+
+.ng-move {
+    opacity: .5;
+}
+
+.ng-move.ng-move-active {
+    opacity: 1;
+}

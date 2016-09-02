@@ -1,0 +1,41 @@
+doctype html
+//html(ng-app="ThreeViewer", ng-strict-di)
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+
+        title= title
+
+        //script.
+            var login_username = "#{username}";
+
+        link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/bower_components/glyphicons/styles/glyphicons.css')
+        link(rel='stylesheet', href='/bower_components/glyphicons-halflings/css/glyphicons-halflings.css')
+        link(rel='stylesheet', href='/css/layout.css')
+
+        //script(type="text/javascript",, src="/lib/function.js")
+        script(type="text/javascript", src="/bower_components/jquery/dist/jquery.min.js")
+        script(type="text/javascript", src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+        script(type="text/javascript", src="/bower_components/underscore/underscore-min.js")
+        script(type="text/javascript", src="/lib/coffee/coffee-script.js")
+        script(type="text/javascript", src="/socket.io/socket.io.js")
+
+        script(type="text/coffeescript", src="/socketio/client.coffee")
+        //script(type="text/coffeescript", src="/lib/func.coffee")
+
+        block header_more
+
+    body
+        //include navbar
+
+        block content
+
+        //include modals
+
+        block bottom_more
+
+
+
