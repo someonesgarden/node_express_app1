@@ -3,9 +3,9 @@ http          = require 'http'
 router        = express.Router()
 download      = require('my/download.coffee').download
 
-java           = require 'java'
-javaLangSystem = java.import 'java.lang.System'
-javaLangSystem.out.printlnSyn　'Hello World'
+#java           = require 'java'
+#javaLangSystem = java.import 'java.lang.System'
+#javaLangSystem.out.printlnSyn　'Hello World'
 
 # WEBデータの収集 ------------
 

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffd9b575-0a04-41e0-acc9-754d5af47c3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.coffee" afterPath="$PROJECT_DIR$/routes/index.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js.map" afterPath="$PROJECT_DIR$/routes/index.js.map" />
     </list>
     <ignored path="node_express_app1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +38,8 @@
       <file leaf-file-name="index.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -63,11 +59,11 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <marker date="1473832875000" expanded="true" signature="48:851" ph="{...}" />
-                <marker date="1473832875000" expanded="true" signature="749:818" ph="{...}" />
-                <marker date="1473832875000" expanded="true" signature="782:812" ph="{&quot;title&quot;: 'TITLE22'...}" />
+                <marker date="1473832879000" expanded="true" signature="48:694" ph="{...}" />
+                <marker date="1473832879000" expanded="true" signature="592:661" ph="{...}" />
+                <marker date="1473832879000" expanded="true" signature="625:655" ph="{&quot;title&quot;: 'TITLE22'...}" />
               </folding>
             </state>
           </provider>
@@ -300,12 +296,12 @@
       <updated>1472845480115</updated>
       <workItem from="1472845481258" duration="475000" />
       <workItem from="1472865699038" duration="2031000" />
-      <workItem from="1473819365002" duration="12907000" />
+      <workItem from="1473819365002" duration="12966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15413000" />
+    <option name="totallyTimeSpent" value="15472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,11 +483,11 @@
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1473832875000" expanded="true" signature="48:851" ph="{...}" />
-            <marker date="1473832875000" expanded="true" signature="749:818" ph="{...}" />
-            <marker date="1473832875000" expanded="true" signature="782:812" ph="{&quot;title&quot;: 'TITLE22'...}" />
+            <marker date="1473832879000" expanded="true" signature="48:694" ph="{...}" />
+            <marker date="1473832879000" expanded="true" signature="592:661" ph="{...}" />
+            <marker date="1473832879000" expanded="true" signature="625:655" ph="{&quot;title&quot;: 'TITLE22'...}" />
           </folding>
         </state>
       </provider>
@@ -554,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
