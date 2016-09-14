@@ -10,6 +10,7 @@ MAINTAINER 0.1 Daisuke Nishimura d@someonesgarden.org
 RUN bower install d3 --save
 
 COPY node_modules /node_modules/
+COPY routes /usr/src/app/routes/
 COPY public /usr/src/app/public/
 COPY views /usr/src/app/views/
 
