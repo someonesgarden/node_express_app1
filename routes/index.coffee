@@ -1,29 +1,36 @@
 express       = require 'express'
 http          = require 'http'
 router        = express.Router()
+download      = require('my/download.coffee').download
+
+# WEBデータの収集 ------------
+
+url      = "http://kujirahand.com/"
+savepath = "public/test.html"
 
 
-#WEBデータの収集
-url = "http://kujirahand.com/"
-savepath = "test.html"
+if typeof java is 'undefined'
+  console.log "Java is not installed."
+else
+  console.log "java.version " + java.lang.System.getProperty("java.version")
 
-http = require 'http'
-fs = require 'fs'
+aUrl = new java.new.URL url
+conn = aUrl.openConnection()
+ins  = conn.getInputStream()
+file = new java.io.File savepath
+out  = new java.io.FileOutputStream file
+b    = null
+while (b=ins.read()) isnt -1
+    out.write(b)
+out.close()
+ins.close()
 
-console.log url
-console.log "unko"
-outfile = fs.createWriteStream savepath
 
-http.get(url, (res)->
-  res.pipe(outfile)
-  res.on('end', ()->
-    outfile.close()
-    console.log("ok")
-  )
-)
+download(url, savepath, ()-> console.log("ok, kenji"))
+
+
 
 router.get('/', (req, res)-> res.render('index', {title:'TITLE22'}))
-
 
 #=================================================================
 module.exports = router

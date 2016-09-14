@@ -3,11 +3,13 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/bin/www.js" />
+        <item url="file://$PROJECT_DIR$/bin/func.js" />
         <item url="file://$PROJECT_DIR$/routes/index.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/bin/www.js" />
+      <root url="file://$PROJECT_DIR$/bin/func.js" />
       <root url="file://$PROJECT_DIR$/routes/index.js" />
     </CLASSES>
     <SOURCES />
