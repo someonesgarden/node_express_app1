@@ -1,0 +1,17 @@
+node_app:
+  #image: "someonesgarden/node_express_app1"
+  build: .
+  ports:
+    - "8080:8080"
+
+  links:
+    - java
+    - node-java
+
+java:
+  image: java:latest
+  restart: always
+
+node-java:
+  image: joeferner/node-java
+  restart: always
