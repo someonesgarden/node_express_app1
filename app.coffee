@@ -1,4 +1,5 @@
 'use strict'
+console.log "di2>>>" + __dirname
 #MIDDLEWARE =====================
 express       = require 'express'
 session       = require 'express-session'
@@ -10,11 +11,12 @@ cookieParser  = require 'cookie-parser'
 bodyParser    = require 'body-parser'
 multer        = require 'multer'
 
-routes        = require './routes/index.coffee'
+index         = require './routes/index.coffee'
+scrape        = require './routes/scrape.coffee'
 
 # view engine setup ====================================
 app = express()
-#app.set('views',path.join(__dirname, 'views'))
+app.set('views',path.join(__dirname, 'views'))
 app.set('view engine','jade')
 
 # USE middleware  =======================================
@@ -30,8 +32,9 @@ app.use session {
 }
 
 app.use express.static(path.join(__dirname, 'public'))
-app.use('/', routes)
-
+app.use('/',        index)
+app.use('/index',   index)
+app.use('/scrape',  scrape)
 
 # ERROR HANDLING =======================================================
 app.use (req, res, next)->

@@ -12,7 +12,7 @@ io      = require(path.resolve(path.join('./socketio', 'server.coffee')))
 app.set('port', parseInt(process.env.PORT, 10) || 8080)
 
 server  = http.createServer(app)
-onError = require('my/funcs.coffee').onError
+onError = require('../funcs.coffee').onError
 
 onListening = ()-> debug('Listening on port ' + server.address().port)
 

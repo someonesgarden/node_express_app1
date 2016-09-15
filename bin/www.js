@@ -16,7 +16,7 @@
 
   server = http.createServer(app);
 
-  onError = require('my/funcs.coffee').onError;
+  onError = require('../funcs.coffee').onError;
 
   onListening = function() {
     return debug('Listening on port ' + server.address().port);
