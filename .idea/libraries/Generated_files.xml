@@ -3,6 +3,7 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/bin/www.js" />
+        <item url="file://$PROJECT_DIR$/routes/casperjs.js" />
         <item url="file://$PROJECT_DIR$/routes/index.js" />
         <item url="file://$PROJECT_DIR$/routes/xmlpage.js" />
         <item url="file://$PROJECT_DIR$/funcs.js" />
@@ -14,6 +15,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/bin/func.js" />
       <root url="file://$PROJECT_DIR$/bin/www.js" />
+      <root url="file://$PROJECT_DIR$/routes/casperjs.js" />
       <root url="file://$PROJECT_DIR$/routes/index.js" />
       <root url="file://$PROJECT_DIR$/routes/xmlpage.js" />
       <root url="file://$PROJECT_DIR$/funcs.js" />

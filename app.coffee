@@ -15,6 +15,7 @@ multer        = require 'multer'
 index         = require './routes/index.coffee'
 scrape        = require './routes/scrape.coffee'
 xmlpage       = require './routes/xmlpage.coffee'
+casperjs      = require './routes/casperjs.coffee'
 
 # view engine setup ====================================
 app = express()
@@ -38,6 +39,7 @@ app.use('/',        index)
 app.use('/index',   index)
 app.use('/scrape',  scrape)
 app.use('/xml',     xmlpage)
+app.use('/casper',   casperjs)
 
 # ERROR HANDLING =======================================================
 app.use (req, res, next)->
