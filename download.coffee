@@ -22,6 +22,7 @@ checkSaveDir = (fname)->
         p += d + "/"
         unless fs.existsSync(p) then fs.mkdirSync(p)
 
+#再帰的にLINK_LEVELまでの深さでHTMLを取得し保存する
 downloadRec = (list,TARGET_URL, LINK_LEVEL, url, level)->
     unless level >= LINK_LEVEL
         unless list[url]
