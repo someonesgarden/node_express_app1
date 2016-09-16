@@ -2,28 +2,36 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/casper.js" />
+        <item url="file://$PROJECT_DIR$/bin/casper.js" />
+        <item url="file://$PROJECT_DIR$/bin/casper_iphoneShot.js" />
         <item url="file://$PROJECT_DIR$/bin/www.js" />
+        <item url="file://$PROJECT_DIR$/bin/casper_flickrShot.js" />
+        <item url="file://$PROJECT_DIR$/bin/casper_screencapture.js" />
+        <item url="file://$PROJECT_DIR$/routes/scrape.js" />
+        <item url="file://$PROJECT_DIR$/app.js" />
         <item url="file://$PROJECT_DIR$/routes/casperjs.js" />
         <item url="file://$PROJECT_DIR$/routes/index.js" />
         <item url="file://$PROJECT_DIR$/routes/xmlpage.js" />
         <item url="file://$PROJECT_DIR$/funcs.js" />
         <item url="file://$PROJECT_DIR$/download.js" />
-        <item url="file://$PROJECT_DIR$/routes/scrape.js" />
-        <item url="file://$PROJECT_DIR$/app.js" />
+        <item url="file://$PROJECT_DIR$/bin/casper_shottool.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/bin/func.js" />
       <root url="file://$PROJECT_DIR$/bin/casper.js" />
+      <root url="file://$PROJECT_DIR$/bin/casper_iphoneShot.js" />
       <root url="file://$PROJECT_DIR$/bin/www.js" />
+      <root url="file://$PROJECT_DIR$/bin/casper_flickrShot.js" />
+      <root url="file://$PROJECT_DIR$/bin/casper_screencapture.js" />
+      <root url="file://$PROJECT_DIR$/routes/scrape.js" />
+      <root url="file://$PROJECT_DIR$/app.js" />
       <root url="file://$PROJECT_DIR$/routes/casperjs.js" />
       <root url="file://$PROJECT_DIR$/routes/index.js" />
       <root url="file://$PROJECT_DIR$/routes/xmlpage.js" />
       <root url="file://$PROJECT_DIR$/funcs.js" />
       <root url="file://$PROJECT_DIR$/download.js" />
-      <root url="file://$PROJECT_DIR$/routes/scrape.js" />
-      <root url="file://$PROJECT_DIR$/app.js" />
+      <root url="file://$PROJECT_DIR$/bin/casper_shottool.js" />
     </CLASSES>
     <SOURCES />
   </library>

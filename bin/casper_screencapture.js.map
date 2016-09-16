@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "casper_screencapture.js",
+  "sourceRoot": "",
+  "sources": [
+    "casper_screencapture.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAGA;AAAA,MAAA;;EAAA,MAAA,GAAS,OAAA,CAAQ,QAAR,CAAiB,CAAC,MAAlB,CAAA;;EACT,MAAM,CAAC,KAAP,CAAA;;EAGA,MAAM,CAAC,IAAP,CAAY,qBAAZ;;EACA,MAAM,CAAC,IAAP,CAAY,SAAA;WAAI,MAAM,CAAC,OAAP,CAAe,gBAAf;EAAJ,CAAZ;;EACA,MAAM,CAAC,GAAP,CAAA;AANA"
+}

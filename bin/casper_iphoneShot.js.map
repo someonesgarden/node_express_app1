@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "casper_iphoneShot.js",
+  "sourceRoot": "",
+  "sources": [
+    "casper_iphoneShot.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,UAAA,GAAa;;EAEb,MAAA,GAAS,OAAA,CAAQ,QAAR,CAAiB,CAAC,MAAlB,CAAA;;EACT,MAAM,CAAC,KAAP,CAAA;;EAGA,MAAM,CAAC,SAAP,CAAiB,yIAAjB;;EACA,MAAM,CAAC,QAAP,CAAgB,GAAhB,EAAqB,IAArB;;EACA,MAAM,CAAC,IAAP,CAAY,UAAZ;;EAEA,MAAM,CAAC,IAAP,CAAY,SAAA;WAAK,IAAC,CAAC,OAAF,CAAU,iBAAV;EAAL,CAAZ;;EACA,MAAM,CAAC,GAAP,CAAA;AAXA"
+}
