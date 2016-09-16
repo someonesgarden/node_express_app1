@@ -38,6 +38,10 @@ request
 #RUN mv casperjs /opt/
 #RUN ln -sf /opt/casperjs/bin/casperjs /usr/local/bin/casperjs
 
+# install phantomJS + caspterJS
+
+# Env
+ENV PHANTOMJS_VERSION 1.9.7
 
 RUN mkdir -p /srv/var && \
   wget -q --no-check-certificate -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
