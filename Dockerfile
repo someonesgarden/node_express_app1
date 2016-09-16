@@ -26,9 +26,8 @@ request
 # install phantomJS + caspterJS
 RUN npm install -g phantomjs casperjs
 
-# Env
+# phantomJSとcaspterJSをソースからinstallする場合（動作確認済み）
 #ENV PHANTOMJS_VERSION 1.9.7
-
 #RUN mkdir -p /srv/var && \
 #  wget -q --no-check-certificate -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
 #  tar -xjf /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C /tmp && \
