@@ -11,8 +11,10 @@ cookieParser  = require 'cookie-parser'
 bodyParser    = require 'body-parser'
 multer        = require 'multer'
 
+# ===============
 index         = require './routes/index.coffee'
 scrape        = require './routes/scrape.coffee'
+xmlpage       = require './routes/xmlpage.coffee'
 
 # view engine setup ====================================
 app = express()
@@ -35,6 +37,7 @@ app.use express.static(path.join(__dirname, 'public'))
 app.use('/',        index)
 app.use('/index',   index)
 app.use('/scrape',  scrape)
+app.use('/xml',     xmlpage)
 
 # ERROR HANDLING =======================================================
 app.use (req, res, next)->

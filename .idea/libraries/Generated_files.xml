@@ -4,6 +4,7 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/bin/www.js" />
         <item url="file://$PROJECT_DIR$/routes/index.js" />
+        <item url="file://$PROJECT_DIR$/routes/xmlpage.js" />
         <item url="file://$PROJECT_DIR$/funcs.js" />
         <item url="file://$PROJECT_DIR$/download.js" />
         <item url="file://$PROJECT_DIR$/routes/scrape.js" />
@@ -14,6 +15,7 @@
       <root url="file://$PROJECT_DIR$/bin/func.js" />
       <root url="file://$PROJECT_DIR$/bin/www.js" />
       <root url="file://$PROJECT_DIR$/routes/index.js" />
+      <root url="file://$PROJECT_DIR$/routes/xmlpage.js" />
       <root url="file://$PROJECT_DIR$/funcs.js" />
       <root url="file://$PROJECT_DIR$/download.js" />
       <root url="file://$PROJECT_DIR$/routes/scrape.js" />

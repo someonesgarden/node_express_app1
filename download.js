@@ -33,7 +33,6 @@
     for (i = j = 0, len = dirlist.length; j < len; i = ++j) {
       d = dirlist[i];
       p += d + "/";
-      console.log("p>> " + p);
       if (!fs.existsSync(p)) {
         results.push(fs.mkdirSync(p));
       } else {
@@ -47,21 +46,18 @@
     var base, us;
     if (!(level >= LINK_LEVEL)) {
       if (!list[url]) {
-        console.log("YES>> " + url);
         list[url] = true;
         us = TARGET_URL.split("/");
         us.pop();
         base = us.join("/");
         if (!(url.indexOf(base) < 0)) {
-          client.fetch(url, {}, function(err, $, res) {
+          return client.fetch(url, {}, function(err, $, res) {
             var savepath;
             $("a").each(function(idx) {
               var href;
               href = $(this).attr('href');
-              console.log("before replace>> " + href + "(" + level + ")");
               href = URL.resolve(url, href);
               href = href.replace(/\#.+$/, "");
-              console.log("replaced>> " + href + "(" + level + ")");
               return downloadRec(list, TARGET_URL, LINK_LEVEL, href, level + 1);
             });
             if (url.substr(url.length - 1, 1) === '/') {
@@ -69,13 +65,12 @@
             }
             savepath = "/usr/src/app/site/" + url.split("/").splice(2).join("/");
             checkSaveDir(savepath);
-            console.log(savepath);
-            return fs.writeFileSync(savepath, $.html());
+            fs.writeFileSync(savepath, $.html());
+            return console.log(list);
           });
         }
       }
     }
-    return list;
   };
 
   module.exports = {

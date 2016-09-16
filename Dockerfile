@@ -14,7 +14,14 @@ apt-get install rhino -y
 
 RUN bower install d3 --save
 
-RUN npm install casperjs cheerio cheerio-httpcli request
+RUN npm install \
+# HTMLファイルの解析用
+cheerio cheerio-httpcli \
+# XMLの解析用
+xml2js \
+# ダウンロード処理に利用
+request
+# casperjs
 
 COPY download.coffee /usr/src/app/download.coffee
 COPY funcs.coffee /usr/src/app/funcs.coffee
