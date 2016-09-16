@@ -24,20 +24,21 @@ request
 
 ###
 # install phantomJS + caspterJS
+RUN npm install -g phantomjs casperjs
 
 # Env
-ENV PHANTOMJS_VERSION 1.9.7
+#ENV PHANTOMJS_VERSION 1.9.7
 
-RUN mkdir -p /srv/var && \
-  wget -q --no-check-certificate -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
-  tar -xjf /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C /tmp && \
-  rm -f /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
-  mv /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/ /srv/var/phantomjs && \
-  ln -s /srv/var/phantomjs/bin/phantomjs /usr/bin/phantomjs && \
-  git clone https://github.com/n1k0/casperjs.git /srv/var/casperjs && \
-  ln -s /srv/var/casperjs/bin/casperjs /usr/bin/casperjs && \
-  apt-get autoremove -y && \
-  apt-get clean all
+#RUN mkdir -p /srv/var && \
+#  wget -q --no-check-certificate -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
+#  tar -xjf /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C /tmp && \
+#  rm -f /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
+#  mv /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/ /srv/var/phantomjs && \
+#  ln -s /srv/var/phantomjs/bin/phantomjs /usr/bin/phantomjs && \
+#  git clone https://github.com/n1k0/casperjs.git /srv/var/casperjs && \
+#  ln -s /srv/var/casperjs/bin/casperjs /usr/bin/casperjs && \
+#  apt-get autoremove -y && \
+#  apt-get clean all
 ####
 
 COPY download.coffee /usr/src/app/download.coffee
