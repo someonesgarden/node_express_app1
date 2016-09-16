@@ -29,15 +29,14 @@ RUN mkdir /src
 WORKDIR /src
 
 # install phantomJS
-RUN wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2 &&\
-  tar xvf phantomjs-2.1.1-linux-x86_64.tar.bz2 &&\
-  mv phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
+RUN wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+RUN tar xvf phantomjs-2.1.1-linux-x86_64.tar.bz2
+RUN mv phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
 
 # install casperJS
-RUN git clone git://github.com/n1k0/casperjs.git &&\
-  mv casperjs /opt/ &&\
-  ln -sf /opt/casperjs/bin/casperjs /usr/local/bin/casperjs
-
+RUN git clone git://github.com/n1k0/casperjs.git
+RUN mv casperjs /opt/
+RUN ln -sf /opt/casperjs/bin/casperjs /usr/local/bin/casperjs
 
 ####
 
