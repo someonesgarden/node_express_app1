@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "casper.js",
+  "sourceRoot": "",
+  "sources": [
+    "casper.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,MAAA,GAAa,OAAA,CAAQ,QAAR,CAAiB,CAAC,MAAlB,CAAA;;EAEb,UAAA,GAAa;;EAKb,MAAM,CAAC,KAAP,CAAa,UAAb,EAAyB,SAAA;WAAK,IAAC,CAAC,IAAF,CAAO,MAAM,CAAC,QAAP,CAAA,CAAP;EAAL,CAAzB;;EACA,MAAM,CAAC,GAAP,CAAA;AARA"
+}
