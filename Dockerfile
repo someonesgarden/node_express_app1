@@ -22,9 +22,10 @@ xml2js \
 # ダウンロード処理に利用
 request
 
-###
+# phantomJSとcaspterJSをnpmでinstallする場合（動作確認済み）
 # install phantomJS + caspterJS
-RUN npm install -g phantomjs casperjs
+# phantom > 2ではcoffeescriptに非対応のためバージョンを下げてインストール
+RUN npm install -g phantomjs@1.9.17 casperjs@1.1.0-beta3
 
 # phantomJSとcaspterJSをソースからinstallする場合（動作確認済み）
 #ENV PHANTOMJS_VERSION 1.9.7
